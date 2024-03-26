@@ -1,5 +1,5 @@
 #!/bin/bash
-#yl2 - muutujad
+#yl2 - interaktiivne kopeerimine
 #autor: Jaanika Haki
 #loodud: 26.03.2024
 
