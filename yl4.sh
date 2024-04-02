@@ -1,7 +1,9 @@
 #!/bin/bash
 #yl3 - lihtne interaktiivne varundus
 #autor: Jaanika Haki
-#loodud: 26.03.2024
+#loodud: 02.04.2024
+#mkdir'iga eelnevalt /varundus kaust loodud
+#crontab -e lisatud käivitusrida: 0 4 * * * /home/student/skriptid/yl4.sh
 
 backup="logsbu_$(date +"%d.%m.%y_%H.%M.%S").tar.gz" #varunudsfaili nimetus kuupäevade ja kellaaajaga
 source="/var/log"
